@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo sobre São Paulo</title>
+</head>
+<body>
+    <div class="start-screen">
+        <h1>Jogo sobre São Paulo</h1>
+        <button id="start-button">JOGAR</button>
+    </div>
+    <div class="game-container" style="display: none;">
+        <div class="container">
+            <h1>Jogo sobre São Paulo</h1>
+            <p>Pergunta <span id="question-number">1</span>:</p>
+            <p id="question">Qual é o principal rio que corta a cidade de São Paulo?</p>
+            <div class="options">
+                <button class="option">Rio Tietê</button>
+                <button class="option">Rio Pinheiros</button>
+                <button class="option">Rio Amazonas</button>
+                <button class="option">Rio São Francisco</button>
+            </div>
+            <p>Pontuação: <span id="score">0</span></p>
+            <img id="end-image" style="display: none;" src="" alt="Imagem do final do jogo">
+
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

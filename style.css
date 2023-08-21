@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('SP.jpg'); /* Substitua 'nome-da-imagem.jpg' pelo nome da sua imagem */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0); /* Cor de fundo semi-transparente */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-button:hover {
+    background-color: #2980b9;
+}
+
+.game-container {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0); /* Adicione um fundo branco semi-transparente para melhor legibilidade */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+.option.correct {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.option.wrong {
+    background-color: #FF5733;
+    color: #fff;
+}
+
+.container {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adicione um fundo branco semi-transparente para melhor legibilidade */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #2980b9;
+}
+
+#score {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+#question {
+    font-size: 24px; /* Ajuste o tamanho da fonte para tornar as perguntas maiores */
+}

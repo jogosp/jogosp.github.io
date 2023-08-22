@@ -17,8 +17,8 @@ const questions = [
     },
     {
         question: "Em qual ano ocorreu a inauguração da Avenida Paulista?",
-        options: ["1899", "1922", "1954", "1969"],
-        correctAnswer: "1899"
+        options: ["1891", "1922", "1954", "1969"],
+        correctAnswer: "1891"
     },
     {
         question: "Qual é o nome do famoso parque que fica localizado na zona sul de São Paulo?",

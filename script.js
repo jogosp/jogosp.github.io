@@ -56,7 +56,7 @@ const questions = [
         correctAnswer: "Praça da República"
     },
     {
-        question: "Qual é o nome do tradicional teatro localizado no bairro da Bela Vista em São Paulo?",
+        question: "Qual é o nome do tradicional teatro localizado no bairro da República em São Paulo?",
         options: ["Teatro Amazonas", "Teatro Municipal", "Teatro Alfa", "Teatro Sérgio Cardoso"],
         correctAnswer: "Teatro Municipal"
     },

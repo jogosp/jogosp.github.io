@@ -166,16 +166,22 @@ function displayNextQuestion() {
         questionText.textContent = ""; // Clear question text
         optionsContainer.innerHTML = ""; // Clear options
 
-        if (score >= 100) {
+        if (score === 140) {
+            const endMessageWin = document.getElementById("end-message-win");
+            const easterEggVideo = document.getElementById("easter-egg-video");
+
+            endMessageWin.textContent = "Você acertou todas as perguntas e encontrou um EASTER EGG! PARABÉNS!!!";
+            easterEggVideo.style.display = "block";
+            endImage.style.display = "none";
+        } else if (score >= 100) {
             questionText.textContent = "Você fez 100 pontos ou mais, e ganhou um bombom! PARABÉNS!";
             endImage.src = "finalbom.jpg"; // Imagem de vitória
+            endImage.style.display = "block";
         } else {
             questionText.textContent = "Você fez menos de 100 pontos. TENTE NOVAMENTE!";
             endImage.src = "finalruim.jpg"; // Imagem de derrota
+            endImage.style.display = "block";
         }
-
-        endImage.style.display = "block";
     }
 }
-
 displayQuestion();

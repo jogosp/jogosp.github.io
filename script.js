@@ -63,7 +63,7 @@ const questions = [
     {
         question: "Qual destes times de futebol foi fundado mais antigamente?",
         options: ["Corinthians", "Palmeiras", "SPFC", "Portuguesa"],
-        correctAnswer: "Portuguesa"
+        correctAnswer: "Corinthians"
     },
     {
         question: "Qual é o nome do famoso mercado municipal de São Paulo, conhecido por vender uma grande variedade de produtos?",
